@@ -629,7 +629,7 @@ a{
 }
 
 .collapsible__chevron{
-    transform: rotate(-90deg) ;
+    transform: rotate(90deg) ;
     transition: transform 0.3s;
 }
 
@@ -831,7 +831,7 @@ color: #fff;
 
 .feature{
     gap: 4rem 2rem;
-    margin: 12rem 0 ;
+    margin: 5rem 0 ;
 
 }
 
@@ -921,6 +921,12 @@ color: #fff;
     color: #fff;
     opacity: 0.3;
 }
+
+.footer .icon-container{
+    background: none;
+}
+
+
 
 @media screen and (min-width:768px) {
     .footer__section{
